@@ -12,4 +12,4 @@ Your `StringBTNode` class will have the following components:
 * `search(String)` will search a subtree for a node with the lable the same as the input, the return type is `StringBTNode`. This method returns `null` if the string is not in the subtree. 
 * `numNodes()` returns an integer which is the number of nodes in a subtree (including the given node). 
 * `insert(String)` will insert the given string into the tree at the bottom somewhere, but only if the string is not already present in the tree. The location will be chosen to keep the tree as balanced as possible. If one side of a subtree has fewer nodes, the new node will be created on that side, if the tree has the same number of nodes on both sides, the node will go on the left. An example of this is shown below, where we start with a tree of 3 nodes and add 4 more. 
-![images/adding4nodes.png](Adding 4 nodes)
+![Adding 4 nodes](images/Adding4Nodes.png)
