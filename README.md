@@ -20,3 +20,11 @@ Your `StringBTNode` class will have the following components:
 ![Adding 4 nodes](images/Adding4Nodes.png)
 
 **Do not add any method or class variables to `StringBTNode`. Do not change any method signatures or visibilities.**
+
+Example:
+Below is an illustarted example of the data structure where the root is labeled by the string with the lower case letter `a`, 
+then adding strings containing the lower case letters `b` to `o`. 
+Note that, the actual string values have no impact on where the nodes are added (this is not a binary search tree). 
+The only time you will need to use `.equals` is in the `search` and `depth` methods. 
+
+![Example](images/lowerCaseLetterExample.gif)
