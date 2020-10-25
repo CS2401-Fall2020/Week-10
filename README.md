@@ -28,3 +28,18 @@ Note that, the actual string values have no impact on where the nodes are added 
 The only time you will need to use `.equals` is in the `search` and `depth` methods. 
 
 ![Example](images/lowerCaseLetterExample.gif)
+
+### Testing
+Include a second file that tests your binary tree and all of its methods. Describe your tests and what part of your data structure it tests. 
+
+
+# Grading
+100 points total
+* Test (20 points)
+* `Search` (20 points)
+* `Depth` (10 points)
+* `Height` (10 points)
+* `numNodes` (10 points)
+* `insert`(30 points)
+
+Lateness rule: -10 pts for 1 day of lateness / - 20 pts for 2 days of lateness / 0 after that, but you still have to turn in your work
